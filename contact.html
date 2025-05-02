@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>اتصل بنا</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>اتصل بنا</h1>
+    
+    <form id="contactForm">
+      <div class="form-group">
+        <input type="text" id="name" placeholder="اسمك" required>
+      </div>
+      
+      <div class="form-group">
+        <input type="email" id="email" placeholder="بريدك الإلكتروني" required>
+      </div>
+      
+      <div class="form-group">
+        <textarea id="message" placeholder="رسالتك" required></textarea>
+      </div>
+      
+      <div class="form-actions">
+        <button type="submit" class="btn contact-btn">إرسال</button>
+        <a href="index.html" class="btn back-btn">العودة</a>
+      </div>
+      
+      <div class="contact-info">
+        <h3>معلومات التواصل</h3>
+        <p>يمكنك التواصل معنا مباشرة عبر:</p>
+        <ul>
+          <li>البريد الإلكتروني: info@gharib.com</li>
+          <li>رقم الهاتف: +966 12 345 6789</li>
+          <li>العنوان: شارع الملك فهد، الرياض، المملكة العربية السعودية</li>
+        </ul>
+      </div>
+    </form>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

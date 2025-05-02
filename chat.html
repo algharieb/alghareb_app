@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>دردشة الغريب</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>دردشة الغريب</h1>
+    
+    <div class="chat-container">
+      <div class="messages" id="messages">
+        <!-- الرسائل تظهر هنا -->
+      </div>
+      <div class="input-area">
+        <input type="text" id="messageInput" placeholder="اكتب رسالتك...">
+        <button class="btn send-btn" onclick="sendMessage()">إرسال</button>
+      </div>
+    </div>
+    
+    <div class="chat-options">
+      <a href="index.html" class="btn back-btn">العودة للصفحة الرئيسية</a>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

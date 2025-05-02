@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>تسجيل حساب جديد</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>تسجيل حساب جديد</h1>
+    
+    <form id="signupForm">
+      <div class="form-group">
+        <input type="text" id="fullname" placeholder="الاسم الكامل" required>
+      </div>
+      
+      <div class="form-group">
+        <input type="text" id="username" placeholder="اسم المستخدم" required>
+      </div>
+      
+      <div class="form-group">
+        <input type="email" id="email" placeholder="البريد الإلكتروني" required>
+      </div>
+      
+      <div class="form-group">
+        <input type="password" id="password" placeholder="كلمة المرور" required>
+      </div>
+      
+      <div class="form-actions">
+        <button type="submit" class="btn signup-btn">تسجيل</button>
+        <a href="index.html" class="btn back-btn">العودة</a>
+      </div>
+      
+      <div class="form-footer">
+        <p>لديك حساب بالفعل؟ <a href="login.html">تسجيل الدخول</a></p>
+      </div>
+    </form>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
